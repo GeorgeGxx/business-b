@@ -16,7 +16,7 @@ services:
   servicio-usuarios:
     container_name: servicio-usuarios
     build:
-      context: ../springboot-servicio-usuarios/
+      context: ./springboot-servicio-usuarios/
       dockerfile: Dockerfile
     image: servicio-usuarios:v1
     environment:
