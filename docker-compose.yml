@@ -29,8 +29,8 @@ services:
     networks:
       - springcloud
     depends_on:
-      - config-server
-      - servicio-eureka-server
+      #- config-server
+      #- servicio-eureka-server
       - microservicios-postgres14
     restart: unless-stopped
 
