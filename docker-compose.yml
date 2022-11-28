@@ -15,10 +15,11 @@ services:
 
   servicio-usuarios:
     container_name: servicio-usuarios
-    build:
-      context: ./springboot-servicio-usuarios/
-      dockerfile: Dockerfile
-    image: servicio-usuarios:v1
+#    build:
+#      context: ./springboot-servicio-usuarios/
+#      dockerfile: Dockerfile
+#    image: servicio-usuarios:v1
+    image: georgegxx/servicio-usuarios:latest
     environment:
         DB_HOST: microservicios-postgres14:5432
         DB_DATABASE: db_springboot_cloud
