@@ -21,8 +21,8 @@ services:
         DB_DATABASE: db_springboot_cloud
         DB_USERNAME: postgres
         DB_PASSWORD: root
-        CONFIG_SERVER_URL: ec2-44-200-117-39.compute-1.amazonaws.com:8888
-        EUREKA_SERVER_URL: ec2-44-200-117-39.compute-1.amazonaws.com:8761
+        CONFIG_SERVER_URL: ec2-54-160-156-149.compute-1.amazonaws.com:8888
+        EUREKA_SERVER_URL: ec2-54-160-156-149.compute-1.amazonaws.com:8761
     networks:
       - springcloud
     depends_on:
